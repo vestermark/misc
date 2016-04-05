@@ -1,6 +1,6 @@
 void Main()
 {
-	"Dog, Cat, Rabbit, Dog, Dog, Lizard, Cat, Cat, Dog, Rabbit, Guinea Pig, Dog"
+	"hund, kat, mus, hund, hund, hest, kat, mus, kat, hund"
 	.Split(',')
 	.Select(n => n.Trim())
 	.CountBy(n => n)
